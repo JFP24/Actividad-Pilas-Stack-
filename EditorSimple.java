@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class EditorSimple {
-
+//un comit simple
     // ===== Pila manual  (solo Strings) =====
     static class Pila {
         private final ArrayList<String> data = new ArrayList<>();
