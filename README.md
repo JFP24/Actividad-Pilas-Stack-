@@ -25,7 +25,9 @@ Se implementan **dos pilas manuales**:
 
 ### Requisitos
 - Tener instalado **Java JDK 8+** en tu computadora y algun editor de codigo simple para ejecutar el codigo
--Tambien puedes usar editores de codigo online como jdoodle, puedes descargar el archivo .java y subirlo para ejecutar el codigo
+
+- Tambien puedes usar editores de codigo online como jdoodle, puedes descargar el archivo .java y subirlo para ejecutar el codigo
+
 - Git para clonar el repositorio.
 
 ### Pasos
