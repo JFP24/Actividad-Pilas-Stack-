@@ -37,7 +37,7 @@ public class EditorSimple {
     void deshacer() {
         String ultima = pilaUndo.pop();
         if (ultima == null) {
-            System.out.println("⛔ Nada que deshacer.");
+            System.out.println("Nada que deshacer.");
             return;
         }
         // quita del documento la última línea
@@ -52,7 +52,7 @@ public class EditorSimple {
     void rehacer() {
         String rec = pilaRedo.pop();
         if (rec == null) {
-            System.out.println("⛔ Nada que rehacer.");
+            System.out.println("Nada que rehacer.");
             return;
         }
         documento.add(rec);
