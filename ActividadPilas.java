@@ -83,38 +83,4 @@ public class EditorSimple {
         System.out.print("Opción: ");
     }
 
-    public static void main(String[] args) {
-        EditorSimple app = new EditorSimple();
-        Scanner sc = new Scanner(System.in);
-        boolean run = true;
-
-        while (run) {
-            menu();
-            String op = sc.nextLine().trim();
-
-            switch (op) {
-                case "1":
-                    System.out.print("Escribe la línea: ");
-                    String linea = sc.nextLine();
-                    app.escribir(linea);
-                    break;
-                case "2":
-                    app.deshacer();
-                    break;
-                case "3":
-                    app.rehacer();
-                    break;
-                case "4":
-                    app.mostrar();
-                    break;
-                case "0":
-                    run = false;
-                    System.out.println("¡Chao!");
-                    break;
-                default:
-                    System.out.println("Opción inválida.");
-            }
-        }
-        sc.close();
-    }
 }
